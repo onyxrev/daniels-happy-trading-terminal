@@ -85,7 +85,7 @@ class NewOrder(VerticalGroup):
 
         try:
             if stop_loss != None:
-                int(take_profit)
+                int(stop_loss)
         except(ValueError, TypeError):
             return False
 
