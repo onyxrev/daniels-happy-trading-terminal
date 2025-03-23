@@ -43,3 +43,15 @@ class Exchange():
             )
 
         return [labels, rows]
+
+    def kill_order(self, order_id):
+        exit()
+        pass
+
+    def close_position(self, order_id):
+        exit()
+        pass
+
+    def place_order(self, order_id):
+        exit()
+        pass
